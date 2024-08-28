@@ -1,0 +1,62 @@
+.app {
+    background-color: #f3e5f5; /* Light purple background */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .card-link {
+    display: block;
+    margin: 10px 0;
+    color: #6a0dad; /* Light purple color */
+    text-decoration: none;
+  }
+  
+  .card-link:hover {
+    text-decoration: underline;
+  }
+
+  .about-me {
+    background-color: #f0f0f0; /* Light grey background */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-me h2 {
+    margin-top: 0;
+  }
+  .photo-card {
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .photo-card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .photo-card-text {
+    padding: 10px;
+    color: #333;
+  }
