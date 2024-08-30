@@ -1,9 +1,9 @@
 // src/App.js
 import React from 'react';
 import './App.css';
-import Card from './components/Card';
-import AboutMe from './components/AboutMe';
-import PhotoCard from './components/PhotoCard';
+import Card from './components/Card/Card';
+import AboutMe from './components/AboutMe/AboutMe';
+import PhotoCard from './components/PhotoCard/PhotoCard';
 
 const App = () => {
   const links = [
@@ -14,7 +14,7 @@ const App = () => {
   ];
 
   const photoCardInfo = {
-    imageUrl: 'https://via.placeholder.com/300', // Replace with your photo URL
+    imageUrl: 'https://via.placeholder.com/300', // Replace with a photo at me at some point
     text: 'This is a description of the photo.'
   };
 
