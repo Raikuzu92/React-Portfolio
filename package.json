@@ -10,7 +10,7 @@
     "serve": "vite preview",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-     "start": "react-scripts start"
+    "start": "react-scripts start"
   },
   "repository": {
     "type": "git",

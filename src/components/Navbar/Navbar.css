@@ -1,0 +1,38 @@
+/* src/components/Navbar/Navbar.css */
+
+nav {
+    background: linear-gradient(145deg, #a0a0a0, #7f7f7f); /* Darker grey gradient */
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Make the navbar span the entire width of the screen */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the start (top-left) */
+  }
+  
+  li {
+    margin: 0 15px; /* Horizontal spacing between links */
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333; /* Darker text for contrast */
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #555; /* Slightly lighter on hover */
+  }
+  
+  a:active {
+    color: #777; /* Slightly darker when active */
+  }
+  
